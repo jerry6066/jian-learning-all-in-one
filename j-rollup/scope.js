@@ -2,7 +2,7 @@
  * @Author: Libo Jian
  * @Date: 2022-12-05 21:56:09
  * @LastEditors: Libo Jian
- * @LastEditTime: 2022-12-05 22:14:00
+ * @LastEditTime: 2022-12-05 22:40:23
  * @FilePath: /jian-learning-all-in-one/j-rollup/scope.js
  * @Description: 
  * 作用域类
@@ -10,7 +10,7 @@
  * Copyright (c) 2022 by Libo Jian, All Rights Reserved. 
  */
 class Scope {
-    constructor(options) {
+    constructor(options = {}) {
         this.parent = options.parent;
         this.names = options.names;
     }
